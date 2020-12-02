@@ -33,4 +33,21 @@ which xauth
 ```
 /usr/bin/xauth
 ```
+On the client side your ~/.ssh/config file have these lines
+```
+
+nano -w /etc/ssh/ssh_config
+
+```
+```
+Host *
+  ForwardAgent yes
+  ForwardX11 yes
+  ```
+  
+ On your client, connect to your server. Be certain to tell ssh to allow X11 forwarding. I prefer
+ 
+ ```
+ssh -X anavs@192.168.1.127
+```
 
