@@ -51,3 +51,5 @@ Host *
 ssh -X anavs@192.168.1.127
 ```
 
+[Guide on how to do X11 forwarding in Linux][https://www.addictivetips.com/ubuntu-linux-tips/set-up-x11-forwarding-on-linux/]
+
